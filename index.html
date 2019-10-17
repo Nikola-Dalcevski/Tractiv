@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="Icons//icofont/icofont.min.css">
+
+
+
+</head>
+
+<body>
+
+    <!-- FirstPage -->
+
+    <div id="myShedulePage" class="wraper">
+        <div class="title-wrap">
+            <h1 class="main-title">Tractiv <i class="icofont-trophy" style="color:orangered"></i></h1>
+        </div>
+
+
+        <div class="body-wraper">
+            <h2>Track Your activity</h2>
+            <div class="container">
+                <div class="item">
+                    <img src="images/Surfing.jpg" alt="Surfing">
+                    <div class="zindex-circut">
+                        <i class="icofont-wind-waves ficon"></i>
+                    </div>
+                    <div class="text">
+                        <h3>Surfing</h3>
+                        <p>OCEAN BEACH</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="images/Hiking.jpg" alt="Hiking">
+                    <div class="zindex-circut">
+                        <i class="icofont-tracking ficon"></i>
+                    </div>
+                    <div class="text">
+                        <h3>Hiking</h3>
+                        <p>TORREY PINES</p>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <img src="images/Weights.jpg" alt="Weights">
+                    <div class="zindex-circut ">
+                        <i class="icofont-dumbbell ficon "></i>
+                    </div>
+                    <div class="text">
+                        <h3>Weights</h3>
+                        <p>ENCINITAS</p>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <img src="images/Spinning.jpg" alt="Spinning">
+                    <div class="zindex-circut">
+                        <i class="icofont-cycling ficon"></i>
+                    </div>
+                    <div class="text">
+                        <h3>Spinning</h3>
+                        <p>GYM</p>
+                    </div>
+                </div>
+
+                <!-- <div class="schedule"> -->
+
+                <!-- </div> -->
+            </div>
+            <div class="schedule">
+                <h2 class="bold">Scheduled activities</h2>
+                <div id="activities" class="activitie"></div>
+                <div id="noActivities" class="no-activities">You dont't have any activities scheduled yet</div>
+
+            </div>
+            <button id="shaBtn" class="sha-btn">SHEDULE ACTIVITY</button>
+        </div>
+
+    </div>
+
+
+
+
+    <!-- Second Page -->
+    <div id="addShedulePage" class="sh-wrapper">
+
+        <button id="goBack" class="back-btn">X</button>
+
+        <h1 class="sh-title">Shedule your activity</h1>
+
+        <div class="sh-container">
+
+            <div class="icon">
+                <div id="spinning" class="circut">
+                    <i class="icofont-cycling ficon"></i>
+                </div>
+                <p class="light">SPINNING</p>
+            </div>
+
+            <div class="icon">
+                <div id="surfing" class="circut">
+                    <i class="icofont-wind-waves ficon"></i>
+                </div>
+                <p class="light">SURFING</p>
+            </div>
+            <div class="icon">
+                <div id="weights" class="circut">
+                    <i class="icofont-dumbbell ficon"></i>
+                </div>
+                <p class="light">WEIGHTS</p>
+            </div>
+            <div class="icon">
+                <div id="hiking" class="circut">
+                    <i class="icofont-tracking ficon"></i>
+                </div>
+                <p class="light">HIKING</p>
+            </div>
+
+        </div>
+
+        <div class="form">
+            <div class="select-form">
+                <p class="light message">How long do you want to do this activity?</p>
+                <select name="interval" id="selectDuration" class="duration">
+                </select>
+            </div>
+
+            <div class="select-form">
+                <p class="light message">When do you want do this activity?</p>
+                <select name="intervalTime" id="itervalTime" class="duration">
+                </select>
+            </div>
+            <button id="shBtn" class="sh-btn sha-btn">SHEDULE</button>
+
+        </div>
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+        crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
